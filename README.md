@@ -2,10 +2,6 @@
 
 This example is for DEMO purpose ONLY.
 
-Virtual Cloud Networking Topology
-
-![Virtual Cloud Networking Topology](vcn-demo.png)
-
 This repository provides terraform script to demo VMware Virtual Cloud Networking (VCN) including:
 
 1- Velocloud SD-WAN for Cloud VPN connectivity between private cloud and public cloud
@@ -31,10 +27,11 @@ This repository provides terraform script to demo VMware Virtual Cloud Networkin
 	3.1 - in progress	
 
 
-
 NOTE: Before to start, be sure that you understand the terraform files and provide the following requirements.
 
+# Virtual Cloud Networking Topology
 
+![Virtual Cloud Networking Topology](vcn-demo.png)
 
 # REQUIREMENTS
 
