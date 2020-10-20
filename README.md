@@ -22,10 +22,6 @@ This repository provides terraform script to demo VMware Virtual Cloud Networkin
 	
 	2.3 - One (1) GSLB service will be configured to reach the private VS (other VS associated to public cloud can be added manually)
 
-3- SOON - NSX Datacenter for network automation and software defined firewall (micro-segmentation, IDS/IPS)
-
-	3.1 - in progress	
-
 
 NOTE: Before to start, be sure that you understand the terraform files and provide the following requirements.
 
