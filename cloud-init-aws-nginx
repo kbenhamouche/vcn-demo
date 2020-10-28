@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sed -i 's/Congratulations/& and Welcome on AWS PUBLIC Cloud/' /opt/bitnami/nginx/html/index.html

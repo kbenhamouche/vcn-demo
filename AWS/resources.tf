@@ -141,7 +141,7 @@ resource "aws_instance" "aws_web-vm" {
         network_interface_id = aws_network_interface.aws_vm-if.id
         device_index  = 0
     }
-    user_data = "sed -i 's/Congratulations/& and Welcome on AWS PUBLIC Cloud/' /opt/bitnami/nginx/html/index.html"
+    user_data = file("cloud-init-aws-nginx")
     tags = {
         Name = "nginx"
     }

@@ -5,5 +5,5 @@ ssh_pwauth: True
 velocloud:
  vce:
   vco: vco12-usvi1.velocloud.net
-  activation_code: NB3M-2VV8-ARF7-D7Q6
+  activation_code: DSP5-PMMC-H9AN-UMA9
   vco_ignore_cert_errors: true

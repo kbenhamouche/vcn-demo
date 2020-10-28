@@ -199,6 +199,7 @@ resource "azurerm_virtual_machine" "azure_web-vm" {
     os_profile {
         computer_name  = "nginx"
         admin_username = "bitnami"
+        custom_data = file("cloud-init-azure-nginx")
     }
 
     os_profile_linux_config {
@@ -209,6 +210,8 @@ resource "azurerm_virtual_machine" "azure_web-vm" {
         }
     }
     
+
+
     tags = {
         environment = "production"
     }
